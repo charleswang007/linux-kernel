@@ -36,4 +36,4 @@ Kernel is the core component of Operating system which is a bridge between appli
 
 ## Reference
 
-http://kernelx.weebly.com/linux-kernel-programming--part1.html [http://kernelx.weebly.com/linux-kernel-programming--part1.html]
+http://kernelx.weebly.com/linux-kernel-programming--part1.html
