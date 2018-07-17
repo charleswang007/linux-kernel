@@ -34,6 +34,23 @@ Kernel is the core component of Operating system which is a bridge between appli
 
 2. Makefile (Program compilation command written)
 
+* Function explaination:
+
+**Init_module()**
+Its init of kernel module. It registers a handler for something with kernel or it replaces any of kernel function code.
+
+**Cleanup_module()**
+Safely unload of module. It does reveres of Init_module.
+
+**Printk()**
+Use for kernel log information or warning.
+
+* Make commands:
+
+make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+
 ## Reference
 
 http://kernelx.weebly.com/linux-kernel-programming--part1.html
