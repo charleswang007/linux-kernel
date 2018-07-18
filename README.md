@@ -55,6 +55,10 @@ make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 
 ![alt text](http://derekmolloy.ie/wp-content/uploads/2015/04/userspace-kernelspace.png)
 
+## Fundamental Architecture of the GNU/Linux Operating System
+
+![alt text](https://www.engineersgarage.com/sites/default/files/wysiwyg_imageupload/4214/Architecture-of-LINUX-Operating-System_0.jpg)
+
 ## Utilities to Manipulate Kernel Modules
 
 * lsmod – List Modules that Loaded Already
@@ -68,5 +72,7 @@ make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ## Reference
 
 http://kernelx.weebly.com/linux-kernel-programming--part1.html
+
 http://linuxkernellearning.blogspot.com/
+
 https://www.thegeekstuff.com/2013/07/write-linux-kernel-module/?utm_source=tuicool
