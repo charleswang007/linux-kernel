@@ -51,6 +51,22 @@ make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
 make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 
+## Linux User Space and Kernel Space
+
+![alt text](http://derekmolloy.ie/wp-content/uploads/2015/04/userspace-kernelspace.png)
+
+## Utilities to Manipulate Kernel Modules
+
+* lsmod – List Modules that Loaded Already
+
+* insmod – Insert Module into Kernel
+
+* modinfo – Display Module Info
+
+* rmmod – Remove Module from Kernel
+
 ## Reference
 
 http://kernelx.weebly.com/linux-kernel-programming--part1.html
+http://linuxkernellearning.blogspot.com/
+https://www.thegeekstuff.com/2013/07/write-linux-kernel-module/?utm_source=tuicool
