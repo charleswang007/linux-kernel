@@ -6,11 +6,11 @@ Kernel is the core component of Operating system which is a bridge between appli
 
 ## Basic functionalities of Kernel
 
-* Kernel’s Primary function is to manage the computer’s resource and allow other programs to run and use these resources.
+* Kernel’s primary function is to manage the computer’s resource and allow other programs to run and use these resources.
 
-* The Kernel is responsible for deciding which memory each process can use and also determine that what to do when not enough memory is available.
+* The Kernel is responsible for deciding which memory each process can use and also determine what to do when not enough memory is available.
 
-* Kernel allocate request from application to perform I/O operation to appropriate device. 
+* Kernel allocates request from application to perform I/O operation to appropriate device. 
 
 * Process management, Memory management and System Calls.
 
@@ -18,11 +18,11 @@ Kernel is the core component of Operating system which is a bridge between appli
 
 * Kernel runs in Kernel space and normal programs run in user space. Kernel space is accessed by user processes only through the System calls. System calls are request by kernel like I/O or Process creation.
 
-* Whatever normally we do in Linux system like writing text in editor, making graphical program,..Etc is in User space.
+* Whatever normally we do in Linux system like writing text in editor, making graphical program...etc is in User space.
 
-* Calling interrupts I/O device communication..Etc comes in Kernel space.
+* Calling interrupts I/O device communication...etc comes in Kernel space.
 
-* Main reason for separating these two spaces is improve performance and making stable system. Otherwise user data and Kernel data will be disturb with each other causing fault or errors.
+* Main reason for separating these two spaces is improving performance and making stable system. Otherwise user data and Kernel data will be disturb with each other causing fault or errors.
 
 ## Hello world of Kernel module Programming
 
@@ -30,17 +30,17 @@ Kernel is the core component of Operating system which is a bridge between appli
 
 * Two files:
 
-1. Hello.c (Our Program code written)
+1. Hello.c (Our program code written)
 
 2. Makefile (Program compilation command written)
 
 * Function explaination:
 
 **Init_module()**
-Its init of kernel module. It registers a handler for something with kernel or it replaces any of kernel function code.
+Is init of kernel module. It registers a handler for something with kernel or it replaces any of kernel function code.
 
 **Cleanup_module()**
-Safely unload of module. It does reveres of Init_module.
+Safely unload of module. It does reverse of Init_module.
 
 **Printk()**
 Use for kernel log information or warning.
